@@ -1,0 +1,169 @@
+nav #navHead {
+  background: #3E3E3E;
+  color: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+nav #navHead #logoSearchBar {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  grid-gap: 25px;
+  flex: 1;
+}
+nav #navHead #logoSearchBar img {
+  width: 115.5px;
+  padding: 14.5px;
+  margin-left: 10%;
+}
+nav #navHead #logoSearchBar input {
+  font-size: 16px;
+  padding: 8px;
+  padding-bottom: 6px;
+  width: 45%;
+  margin-bottom: 4px;
+  border: solid 1px #b1b1b1;
+}
+nav #navHead #logoSearchBar .fa-search {
+  color: #999999;
+  position: relative;
+  right: 55px;
+  font-size: 20px;
+  font-weight: 600;
+}
+nav #navHead #signReg {
+  display: flex;
+  grid-gap: 30px;
+  margin-right: 30px;
+}
+nav #navHead #signReg a {
+  display: flex;
+  grid-gap: 10px;
+}
+nav #navBar ul {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: solid 1px black;
+}
+nav #navBar ul li {
+  display: flex;
+  list-style: none;
+}
+nav #navBar ul li a {
+  padding: 18px 10px;
+  font-size: 15px;
+  font-weight: 600;
+}
+nav #navBar ul li a:hover {
+  background: whitesmoke;
+}
+nav #navBar #hbMenu {
+  border: solid 1px grey;
+  height: 30px;
+  width: 40px;
+  border-radius: 5px;
+  display: none;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 8px;
+}
+nav #navBar #hbMenu .hbBar {
+  width: 100%;
+  height: 2px;
+  background: gray;
+}
+nav hr {
+  height: 10px;
+  background: whitesmoke;
+}
+
+@media only screen and (max-width: 960px) {
+  nav #navHead {
+    padding-top: 10px;
+    background: #3E3E3E;
+    color: white;
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-between;
+    align-items: center;
+    grid-gap: 10px;
+  }
+  nav #navHead #logoSearchBar {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    grid-gap: 25px;
+    flex: 1;
+    width: 100%;
+  }
+  nav #navHead #logoSearchBar img {
+    width: 115.5px;
+    padding: 14.5px;
+    margin-left: 10%;
+  }
+  nav #navHead #logoSearchBar input {
+    font-size: 16px;
+    padding: 8px;
+    padding-bottom: 6px;
+    width: 100%;
+    margin-bottom: 4px;
+    border: solid 1px #b1b1b1;
+  }
+  nav #navHead #logoSearchBar .fa-search {
+    color: #999999;
+    position: relative;
+    right: 55px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  nav #navHead #signReg {
+    display: flex;
+    grid-gap: 30px;
+    margin-right: 30px;
+  }
+  nav #navHead #signReg a {
+    display: flex;
+    grid-gap: 10px;
+  }
+  nav #navBar {
+    display: flex;
+    flex-direction: column;
+  }
+  nav #navBar ul {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: solid 1px black;
+  }
+  nav #navBar ul li {
+    display: none;
+    list-style: none;
+  }
+  nav #navBar ul li a {
+    padding: 18px 10px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+  nav #navBar ul li a:hover {
+    background: whitesmoke;
+  }
+  nav #navBar #hbMenu {
+    align-self: flex-end;
+    border: solid 1px grey;
+    height: 35px;
+    width: 40px;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 8px;
+    margin: 10px;
+  }
+  nav #navBar #hbMenu .hbBar {
+    width: 100%;
+    height: 2px;
+    background: gray;
+  }
+}/*# sourceMappingURL=navBar.css.map */
