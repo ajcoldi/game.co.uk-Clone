@@ -1,0 +1,196 @@
+footer{
+    background: #2E2E2E;
+    color: whitesmoke;
+    padding: 0 50px;
+    #footerHead{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        grid-gap: 10px;
+        padding: 10px;
+        
+        h2{}
+        img{
+            width: 80px;
+        }
+    }
+    #siteMap{
+        display: flex;
+        justify-content: space-between;
+        padding: 15px 0;
+        ul{
+            h3{}
+            li{
+                list-style: none;
+                a{
+                    font-weight: 300;
+                    padding: 5px 0;
+                }
+            }
+        }
+
+    }
+    #footer-sec-pay{
+        display: flex;
+        padding: 15px 0;
+        .payRow{
+            display: flex;
+            flex-direction: column;
+            img{
+                width: 100%;
+            }
+            h3{
+                text-align: center;
+            }
+        }
+            #waysToPay{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                grid-gap: 10px;
+            }
+            #signUp{
+                flex: 2;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                grid-gap: 8px;
+                form{
+                    display: flex;  
+                    justify-content: center;
+                    width: 100%;
+                    input{
+                        padding: 6px;
+                        font-size: 16px;
+                        width: 55%;
+                    }
+                    button{
+                        background: #A12283;
+                        padding: 8px 15px;
+                        border: none;
+                        color: white;
+                        font-size: 14px;
+                        font-weight: 800;
+                    }
+                }
+            }
+            #moreFromGame{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                grid-gap: 5px;
+                img{
+                    width: 50%;
+                }
+                div{
+                    display: flex;
+                    grid-gap: 10px;
+                    margin: 5px;
+                    i{
+                        font-size: 26px;
+                    }
+                }
+            }
+            #rewards{
+                flex: 1;
+                display: flex;
+                flex-direction: column;
+                grid-gap: 5px;
+                #rewardTitle{
+                    background: white;
+                    color: #2E2E2E;
+                }
+                div{
+                    display: flex;
+                    grid-gap: 10px;
+                    img{
+                        width: 50%;
+                    }
+                }
+            }
+       
+    }
+    #footer-sec-companyReg{
+        display: flex;
+        justify-content: center;
+        padding-bottom: 10px;
+        small{
+            font-size: 12px;
+            font-weight: 300;
+            width: 95%;
+            text-align: center;
+        }
+    }
+    #footer-sec-credit{
+        padding-top: 20px;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: space-around;
+        .h4Inverted{
+            background: white;
+            font-size: 14px;
+            color: #2E2E2E;
+            padding: 5px 20px;
+            border-radius: 5px;
+        }
+        div{
+            display: flex;
+            align-items: center;
+            grid-gap: 10px;
+            img{
+                width: 80px;
+            }
+        }
+     
+    }
+    #footer-trademark{
+        font-size: 11px;
+        margin: auto;
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1000px) {
+footer{
+    padding: 0 2px;
+    #siteMap{
+        flex-direction: column;
+        grid-gap: 10px;
+        padding: 15px 0;
+        ul{
+            
+            h3{
+                background: gray;
+                font-weight: 800;
+                font-size: 25px;
+            }
+            li{
+                display: none;
+                a{
+                    font-weight: 300;
+                    padding: 5px 0;
+                }
+            }
+        }
+
+    }
+    #footer-sec-pay{
+            #waysToPay{
+                display: none;
+            }
+            #moreFromGame{
+                display: none;
+            }
+            #rewards{
+                display: none;
+            }
+       
+    }
+}
+#footer-sec-credit{
+    flex-direction: column;
+    grid-gap: 10px;
+ 
+    }
+}
